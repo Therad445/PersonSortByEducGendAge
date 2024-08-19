@@ -11,7 +11,8 @@ Sorting occurs in descending order of education level, then by gender, and final
 - **name**: The name of the person (string).- **education**: The level of education (enumeration `Education`).- **gender**: Gender (enumeration of `Gender').- **age**: Age (integer).
 ### Transfers
 ```cppenum class Education {    HighSchool,    Bachelor,    Master,    PhD};
-enum class Gender {    Male,    Female,    Other};```
+enum class Gender {    Male,    Female,    Other};
+```
 ## Usage
 To use the program, follow these steps:
 1. Clone the repository:
@@ -24,7 +25,8 @@ To use the program, follow these steps:
 An example of a list of people and a call to the sorting function:
 ```cppstd::vector<Person> people = {    {"Alice", Education::Master, Gender::Female, 30},    {"Bob", Education::Bachelor, Gender::Male, 22}, {"Charlie", Education::PhD, Gender::Other, 35}, // add more people};
 sortPeople(people);
-for (const auto& person : people) {    std::cout << person.name << " - " << person.age << " years old\n";}``
+for (const auto& person : people) {    std::cout << person.name << " - " << person.age << " years old\n";}
+```
 ## License
 This project is distributed under the MIT license. See the [LICENSE](LICENSE) file for more information.
 ## Author
