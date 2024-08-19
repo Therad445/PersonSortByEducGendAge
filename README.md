@@ -1,4 +1,4 @@
-# PersonSortByEducGendAge
+# PersonSorter
 This simple C++ program allows the creation of sorted objects by sorting by education, gender, and age. The project demonstrated my basic knowledge of using user data structures, STL containers and sorting algorithms
 ![2022-03-21_14-39-19](https://user-images.githubusercontent.com/59477654/159255774-c0de1a60-eaab-46ef-9d23-59c2ba343f46.png)
 ## Description
